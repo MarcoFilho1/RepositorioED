@@ -52,7 +52,7 @@ for nome_arquivo in os.listdir(pasta):
     fim_insert = time.time()
     tempo_insert = fim_insert - inicio_insert
     results_insert.append((nome_arquivo, tempo_insert))
-    print("InsertionSort: ", tempo_insert, "segundos")
+    print(f"InsertionSort: {tempo_insert:.6f} segundos")
 
     # SelectionSort
     copia_dados2 = dados.copy()
@@ -61,7 +61,7 @@ for nome_arquivo in os.listdir(pasta):
     fim_select = time.time()
     tempo_select = fim_select - inicio_select
     results_selection.append((nome_arquivo, tempo_select))
-    print("SelectionSort:  ", tempo_select, "segundos")
+    print(f"SelectionSort: {tempo_select:.6f} segundos")
 
 
 # Printando o resultado final
@@ -70,7 +70,7 @@ for i in range(len(results_insert)):
     nome = results_insert[i][0]
     tempo_insert = results_insert[i][1]
     tempo_select = results_selection[i][1]
-    print(f"{nome}: Insertion = {tempo_insert:.4f}segundos | Selection = {tempo_select:.4f}segundos")
+    print(f"\n{nome}: Insertion = {tempo_insert:.4f}segundos | Selection = {tempo_select:.4f}segundos")
 
     if tempo_insert > tempo_select:
         print(f"O select é melhor por {(tempo_insert - tempo_select):.4f}segundos")
