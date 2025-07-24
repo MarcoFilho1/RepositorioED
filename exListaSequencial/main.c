@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define MAX_SIZE 100 // Definindo o tamanho m�ximo da lista
+#define MAX_SIZE 100 // Definindo o tamanho máximo da lista
 
 typedef struct {
     int data[MAX_SIZE];
@@ -13,12 +13,12 @@ void criarLista(Lista* lista) {
     lista->size = 0;
 }
 
-// Verifica se a lista est� vazia
+// Verifica se a lista está vazia
 int listaVazia(Lista* lista) {
     return lista->size == 0;
 }
 
-// Verifica se a lista est� cheia
+// Verifica se a lista está cheia
 int listaCheia(Lista* lista) {
     return lista->size == MAX_SIZE;
 }
@@ -91,12 +91,12 @@ int main() {
     Lista lista;
     criarLista(&lista);
 
-    // Testando as fun��es
+    // Testando as funções
     inserirElemento(&lista, 1, 10);
     inserirElemento(&lista, 2, 20);
     inserirElemento(&lista, 3, 30);
 
-    printf("Lista apos insercoess: ");
+    printf("Lista apos insercoes: ");
     imprimirLista(&lista);
 
     printf("Elemento na posicao 2: %d\n", obterElemento(&lista, 2));
