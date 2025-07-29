@@ -126,7 +126,6 @@ void liberar_lista(Lista* lista){
 }
 
 
-#include <unistd.h>  // Adicione isso no topo junto com stdio.h e stdlib.h
 
 int main() {
     Lista* list = criar_lista();
