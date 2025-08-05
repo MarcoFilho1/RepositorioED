@@ -11,18 +11,18 @@ Este projeto foi desenvolvido para a disciplina de **Estrutura de Dados**, com a
 
 ---
 
-## ?? Estrutura de Arquivos
+## Estrutura de Arquivos
 
 FilaCircular/  
-??? Fila.h       # Definição da classe Fila  
-??? Fila.cpp     # Implementação da classe Fila  
-??? main.cpp     # Programa principal para testes  
-??? Makefile     # Compilação automatizada (Linux/Mac ou Windows com make)  
-??? README.md    # Este arquivo  
+ Fila.h       # Definição da classe Fila  
+ Fila.cpp     # Implementação da classe Fila  
+ main.cpp     # Programa principal para testes  
+ Makefile     # Compilação automatizada (Linux/Mac ou Windows com make)  
+ README.md    # Este arquivo  
 
 ---
 
-## ?? Como Compilar e Executar
+## Como Compilar e Executar
 
 ### **Opção 1 — Usando g++ diretamente**
 
