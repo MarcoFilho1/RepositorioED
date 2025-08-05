@@ -27,7 +27,7 @@ visitados.add(start_pos)
 # Movimentos possíveis: cima, baixo, esquerda, direita
 movimentos = [(-1, 0), (1, 0), (0, -1), (0, 1)]
 
-# Algoritmo de backtracking com pilha
+# Algoritmo de backtracking
 while pilha:
     
     pos = pilha.pop()
