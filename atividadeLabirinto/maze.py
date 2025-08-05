@@ -4,6 +4,7 @@ import csv
 import random
 import threading
 
+
 class Maze:
 
     '''
